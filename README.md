@@ -35,6 +35,7 @@ make it useful.
 | Project | What it is | Stack |
 |---|---|---|
 | **[amon-claw](https://github.com/matheus-amon/amon-claw)** | Personal multi-agent runtime. Deterministic LangGraph workflows, HTTP/webhook surface via FastAPI, hand-written code with LLMs used only for design discussion. Ships as a Lambda-compatible container. | Python · LangGraph · FastAPI · Docker · uv · MkDocs |
+| ↳ **[Live documentation](https://matheus-amon.github.io/amon-claw/)** | Architecture, design decisions and reference material |
 | **[podcast](https://github.com/matheus-amon/podcast)** | SaaS proof-of-concept for podcast operations — agenda, leads, budget and billing. Spec-driven monorepo. | TypeScript · Bun · ElysiaJS · Drizzle · Next.js |
 | **[casino-dbt-analytics](https://github.com/matheus-amon/casino-dbt-analytics)** | End-to-end analytics engineering project: dbt models with tests and documentation, feeding a versioned Power BI report. | dbt · SQL · Power BI · Postgres |
 | **[api-ingest-airflow](https://github.com/matheus-amon/api-ingest-airflow)** | Ingestion pipeline under Airflow, built around software-engineering boundaries: an API client, a DTO contract that validates at construction, a service orchestrator, and a repository behind an interface. Ships with tests and a container image. | Airflow · Python · uv · pytest · Docker |
