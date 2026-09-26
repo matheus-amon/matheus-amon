@@ -37,10 +37,8 @@ make it useful.
 | **[amon-claw](https://github.com/matheus-amon/amon-claw)** | Personal multi-agent runtime. Deterministic LangGraph workflows, HTTP/webhook surface via FastAPI, hand-written code with LLMs used only for design discussion. Ships as a Lambda-compatible container. | Python · LangGraph · FastAPI · Docker · uv · MkDocs |
 | **[podcast](https://github.com/matheus-amon/podcast)** | SaaS proof-of-concept for podcast operations — agenda, leads, budget and billing. Spec-driven monorepo. | TypeScript · Bun · ElysiaJS · Drizzle · Next.js |
 | **[casino-dbt-analytics](https://github.com/matheus-amon/casino-dbt-analytics)** | End-to-end analytics engineering project: dbt models with tests and documentation, feeding a versioned Power BI report. | dbt · SQL · Power BI · Postgres |
-| **[dwh-airflow](https://github.com/matheus-amon/dwh-airflow)** | Orchestration layer of a containerised data warehouse, built as the Airflow component of a three-repo platform. | Airflow · Docker · ELT |
-| **[dwh-dbt](https://github.com/matheus-amon/dwh-dbt)** | Transformation layer of the same platform — models, tests and docs. | dbt · SQL |
-| **[dwh-config-local](https://github.com/matheus-amon/dwh-config-local)** | Reproducible local environment for the whole stack, so the platform can be brought up from a clean machine. | Terraform · Docker Compose · uv · pytest |
-| **[api-ingest-airflow](https://github.com/matheus-amon/api-ingest-airflow)** | Reference template for ingestion APIs under Airflow: versioned DAGs, migrations, tests, container image. | Airflow · Python · uv · Docker |
+| **[api-ingest-airflow](https://github.com/matheus-amon/api-ingest-airflow)** | Ingestion pipeline under Airflow, built around software-engineering boundaries: an API client, a DTO contract that validates at construction, a service orchestrator, and a repository behind an interface. Ships with tests and a container image. | Airflow · Python · uv · pytest · Docker |
+| **[fastapi-clean-example](https://github.com/matheus-amon/fastapi-clean-example)** | Upstream project I study and fork to keep a reference implementation of Clean Architecture, CQRS and DDD in Python close at hand. | FastAPI · CQRS · DDD · RBAC |
 
 ## Stack
 
